@@ -1,0 +1,5 @@
+# Витрина демонстрационная. Перед боевым запуском:
+# 1) в src/config.ts поставить SITE_STAGE = 'production'
+# 2) здесь заменить Disallow: / на Allow: /
+User-agent: *
+Disallow: /
