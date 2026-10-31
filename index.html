@@ -1,79 +1,15 @@
 <!doctype html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>Венеция — сумки и аксессуары</title>
-    <meta name="description" content="Венеция — сумки, ремни и аксессуары. Бутик в Воткинске, доставка по России." />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Венеция" />
-    <meta property="og:title" content="Венеция — сумки и аксессуары" />
-    <meta property="og:description" content="Сумки, ремни и аксессуары, которые завершают образ." />
-    <meta property="og:image" content="./media/editorial/hero-campaign-v1.webp" />
-    <meta property="og:locale" content="ru_RU" />
-    <meta name="theme-color" content="#F7F3EC" />
-    <!-- витрина демонстрационная: снять вместе с SITE_STAGE в src/config.ts -->
-    <meta name="robots" content="noindex, nofollow" />
-    <link rel="icon" href="./brand/favicon.png" type="image/png" />
-    <link rel="apple-touch-icon" href="./brand/apple-touch-icon.png" />
-    <link href="./fonts/fonts.css" rel="stylesheet" />
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Store",
-        "name": "Венеция",
-        "description": "Сеть магазинов обуви, одежды и аксессуаров в Воткинске.",
-        "telephone": "+7 995 602-18-99",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Воткинск",
-          "streetAddress": "ул. Свердлова, 58",
-          "addressCountry": "RU"
-        },
-        "openingHoursSpecification": [
-          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "20:00" },
-          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday","Sunday"], "opens": "09:00", "closes": "17:00" }
-        ],
-        "sameAs": ["https://vk.ru/veniceshop"]
-      }
-    </script>
-    <script type="module" crossorigin src="./assets/index-D-N4qcOV.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-CGpK0H1-.css">
-  </head>
-  <body>
-    <section id="boot-fallback" role="status" aria-live="polite" style="max-width: 34rem; margin: 15vh auto; padding: 2rem; font: 18px/1.6 system-ui, sans-serif; color: #29241f;">
-      <h1 id="boot-title" style="font-size: 1.8rem; line-height: 1.25;">Открываем «Венецию»…</h1>
-      <p id="boot-message">Подождите немного. Загружаем фотографии и каталог.</p>
-      <p>Если каталог не открылся, <a href="https://vk.me/veniceshop">напишите в бутик</a> или <a href="tel:+79956021899">позвоните</a>.</p>
-      <button id="boot-retry" type="button" hidden style="min-height: 48px; padding: .75rem 1.5rem; border: 0; border-radius: 4px; background: #29241f; color: #fff; font: inherit; cursor: pointer;">Открыть ещё раз</button>
-      <noscript><p>Включите JavaScript в браузере, чтобы открыть каталог.</p></noscript>
-    </section>
-    <div id="root"></div>
-    <script>
-      (() => {
-        let ready = false
-        const panel = document.getElementById('boot-fallback')
-        const retry = document.getElementById('boot-retry')
-        const failed = () => {
-          if (ready) return
-          document.getElementById('boot-title').textContent = 'Не удалось открыть сайт'
-          document.getElementById('boot-message').textContent = 'Возможно, прервалось соединение или сайт обновился. Сохранённые товары и снимки останутся на месте.'
-          retry.hidden = false
-        }
-        retry.addEventListener('click', () => {
-          const next = new URL(location.href)
-          next.searchParams.set('__venecia_reload', String(Date.now()))
-          location.replace(next.href)
-        })
-        const timeout = setTimeout(failed, 15000)
-        window.addEventListener('error', failed, true)
-        window.addEventListener('unhandledrejection', failed)
-        window.addEventListener('venecia:app-ready', () => {
-          ready = true
-          clearTimeout(timeout)
-          panel.hidden = true
-        }, { once: true })
-      })()
-    </script>
-  </body>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Венеция — сумки и аксессуары</title>
+<link rel="canonical" href="https://fgesha1.sourcecraft.site/venecia-live/index.html">
+<script>location.replace('https://fgesha1.sourcecraft.site/venecia-live/index.html'+location.hash)</script>
+<noscript><meta http-equiv="refresh" content="0;url=https://fgesha1.sourcecraft.site/venecia-live/index.html"></noscript>
+</head>
+<body style="font:20px/1.6 system-ui;background:#f7f3ec;color:#3b2a20;padding:2rem">
+<p><a href="https://fgesha1.sourcecraft.site/venecia-live/index.html">Открыть бутик «Венеция»</a></p>
+</body>
 </html>
